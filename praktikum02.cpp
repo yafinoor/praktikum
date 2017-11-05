@@ -10,5 +10,10 @@ int main(){
 		cout << "nilai lebar = "; cin >> lebar;
 		luas = tinggi*lebar;
 		cout << "luas persegi panjang adalah " << luas;
+	}else if (bidang=='S'){
+		cout << "nilai alas = "; cin >> alas;
+		cout << "nilai tinggi = "; cin >> tinggi;
+		luas = 0.5*alas*tinggi;
+		cout << "luas segitiga adalah " << luas;
 	}
 }
