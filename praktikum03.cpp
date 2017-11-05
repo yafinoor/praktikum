@@ -12,4 +12,20 @@ int main(){
 	}else{
 		gjt[0]=gjp*0.85;
 	}
+	cout << "awal bekerja di minggu ke-2 = "; cin >> waktu[1];
+	if (waktu[1]>40){
+		gjl=(waktu[1]-40)*1.5*gj;
+		gjt[1]=(gjp+gjl)*0.85;
+		gja=gjp*0.85;
+	}else{
+		gjt[1]=gjp*0.85;
+	}
+	cout <<"awal bekerja di minggu ke-3 = "; cin >> waktu[2];
+	if (waktu[2]>40){
+		gjl=(waktu[2]-40)*1.5*gj;
+		gjt[2]=(gjp+gjl)*0.85;
+		gja+gjp*0.85;
+	} else{
+		gjt[2]=gjp*0.85;
+	}
 }
